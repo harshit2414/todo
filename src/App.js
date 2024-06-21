@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Todolist from "./component/todolist";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  // object in javascript
+  // array in javascript
+  // spread operator   arr = [1,2,3,4];   arr2 = [...arr,5,6,7];
+
+  //map mostly work as loop
+
+  // filter   mostly work as if els econdition
+
+  return <div className="App">
+  <Todolist />
+  </div>; 
 }
 
 export default App;
